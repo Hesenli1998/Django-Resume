@@ -35,7 +35,7 @@ SECRET_KEY = env('SECRET_KEY')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS', cast=list)
 
 
-CSRF_COOKIE_ORIGINS = env('CSRF_COOKIE_ORIGINS', cast=list)
+CSRF_TRUSTED_ORIGINS = env('CSRF_TRUSTED_ORIGINS', cast=list)
 
 # Application definition
 
