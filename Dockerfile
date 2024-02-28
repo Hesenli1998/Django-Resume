@@ -6,7 +6,7 @@ RUN apt update
 RUN apt install python3-dev build-essential -y
 
 # set enviroment variables
-ENV PYTHONDONTWRITEBYTECODE
+ENV PYTHONDONTWRITEBYTHECODE 1
 
 ENV VIRTUAL_ENV=/opt/venv
 
